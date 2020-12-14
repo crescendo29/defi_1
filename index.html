@@ -3,93 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/54e23c8d68.js" crossorigin="anonymous"></script>
     <title>Mon petit graphisme</title>
 </head>
 <body>
-    <header>
+    <header class="main-head">
+        <nav>
             <img src="./img/logo_long.png" alt="logo de l'agence">
-            <nav>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+            <ul>
+                <li>Accueil</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section id="hero">
-            <div id="backgroundImg">
-                <img src="./img/backgroung_image.jpg" alt="arrière plan">
-            </div>
-            <div id="banniere">
-                <img src="./img/logo_long.png" alt="logo de l'entreprise">
-                <h2>Agence de graphisme</h2>
-            </div>
-        </section>
 
-        <section id="presentation">
-            <div class="presentationIntro">
-                <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à <br>créer des visuels attractifs</p>
+<main>
+    <section class="background">
+        <img src="./img/logo_long.png" alt="logo de l'agence">
+        <h2>Agence de graphisme</h2>
+    </section>
+    <section class="description">
+        <article class="story">
+            <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à <br>
+            créer des visuels attractifs</p>
+        </article>
+        <article class="skills">
+            <div class="graphisme">
+                <img src="./img/graphic-design.png" alt="icone web design">
+                <h3>Graphisme</h3>
+                <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
             </div>
-            <section id="presentationSkills">
-                <article>
-                    <img src="./img/graphic-design.png" alt="icone web design">
-                    <h2>Graphisme</h2>
-                    <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
-                </article>
-                <article>
-                    <img src="./img/strategie.png" alt="icone web design">
-                    <h2>Stratégie</h2>
-                    <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
-                </article>
-                <article>
-                    <img src="./img/illustrations.png" alt="icone web design">
-                    <h2>Illustrations</h2>
-                    <p>Nos graphistes vous proposeront des illustrations 100% originales</p>
-                </article>
-            </section>
-            <section class="temoignage">
-                <p>"Mon petit graphisme est une excellente agence de graphisme, les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
-                <p>Amandine, Restauratrice</p>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <div class="copyright">
-            <h2>Mon petit graphisme - Agence de graphisme à Paris</h2>
+            <div class="strategie">
+                <img src="./img/strategie.png" alt="icone web design">
+                <h3>Stratégie</h3>
+                <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+            </div>
+            <div class="illustrations">
+                <img src="./img/illustrations.png" alt="icone web design">
+                <h3>Illustrations</h3>
+                <p>Nos graphistes vous proposeront des illustrations 100% originales</p>
+            </div>
+        </article>
+        <article class="temoignage">
+            <p>"Mon petit graphisme est une excellente agence de graphisme, les graphistes sont à l'écoute des besoins et m'ont permis de renouveler complètement la carte de mon restaurant."</p>
+                <p class="signature">Amandine, Restauratrice</p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <div class="copyright">
+        <p>Mon petit graphisme - Agence de graphisme basée à Paris</p>
+    </div>
+    <div class="social-network">
+        <ul>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+        </ul>
+    </div>
+    <div class="footer-content">
+        <div>
+            <h3>Accès rapides</h3>
+            <ul>
+                <li>Accueil</li>
+                <li>Contact</li>
+            </ul>
         </div>
-        <div class="social-network">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
+        <div>
+            <h3>A propos</h3>
+            <ul>
+                <li>Données personnelles</li>
+                <li>Mentions légales</li>
+                <li>Cookies</li>
+            </ul>
         </div>
-        <div class="footer-content">
-            <div>
-                <h3>Accès rapides</h3>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div>
-                <h3>A propos</h3>
-                <ul>
-                    <li>Données personnelles</li>
-                    <li>Mentions légales</li>
-                    <li>Cookies</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Coordonnées</h3>
-                <p>10 Quai de la Charente<br>
-                75019 Paris<br>
-                01 23 45 67 89</p>
-            </div>
+        <div>
+            <h3>Coordonnées</h3>
+            <p>10 Quai de la Charente<br>
+            75019 Paris<br>
+            01 23 45 67 89</p>
         </div>
-    </footer>
-        
-    
+    </div>
+</footer>
 </body>
 </html>
